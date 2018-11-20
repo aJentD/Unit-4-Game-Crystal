@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Crystal Collector</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/crystal.css" />
+    
+</head>
+<body>
+    <div class="container header">
+        <div class="row row1">
+            <div class="col-md-10 offset-md-2">
+                <h1>Crystal Collector</h1>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row about">
+            <div class="col-md-4 offset-md-4 info">
+                <p>Match your booty count with the random number you are given. If you are greedy, 
+                    you will fail! <br> Click the booty to see it's value.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container main">
+        <div id="row game-counters justify-center">
+            <div class="col-md-6">
+                <h3>Wins <span id="wins"></span></h3>
+            </div>
+            <div class="col-md-6">
+                <h3>Losses <span id="losses"></span></h3>
+            </div>
+        </div>
+    </div>
+`   
+    <div class="container play-area">
+        <div class="row">
+            <div class="col-md-6 offset-md-4">
+                <h2 class="number">Random Number <span id="random-number"></span></h2>
+            </div>
+        </div>
+
+    <div class="row">
+        <div class="col-md-9 offset-md-2">
+            <div class="crystals">
+                    <h3 class="number">Booty!!!!</h3>
+                    <button class="crystal-area"><img src="assets/images/bigtreasure.png"></button>
+                    <button class="crystal-area"><img src="assets/images/booty.png"></button>
+                    <button class="crystal-area"><img src="assets/images/coins.png"></button>
+                    <button class="crystal-area"><img src="assets/images/oneeyedwillie.png"></button>
+            </div>
+        </div>
+    </div>
+        
+        <h2>Players Booty Score</h2>
+        <h2 class="number"><span id="player-score"></span></h2>
+    </div>
+
+</body>
+<script src="assets/javascript/game.js"></script>
+</html>
